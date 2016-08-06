@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="./styles/bootstrap.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body class="register">
+    <div class="container layout">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+            </div>
+            <div class="panel-body">
+                <div class="switchBtn">
+                    <ul class="clearfix">
+                        <li>
+                            <a href="javascript:PAGE.fn.switchNav('email','phone')">手机号码注册</a>
+                        </li>
+                        <li>
+                            <a href="javascript:PAGE.fn.switchNav('phone','email')">邮箱注册</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="phone">
+                    <div class="register-layout">
+                        <form class="form-horizontal" action="">
+                            <div class="form-group">
+                                  <input type="email" class="form-control" name="" placeholder="请输入常用手机号码" autofocus="autofocus">
+                            </div>
+
+                            <div class="form-group form-inline sms-validation">
+                                  <input type="password" class="form-control" name="" style="width: 270px;"  placeholder="请输入短信验证码">
+                                  <button class="btn btn-default">获取验证码</button>
+                            </div>
+
+                            <div class="form-group">
+                                  <input type="password" class="form-control" name="" placeholder="请输入密码">
+                            </div>
+
+                            <div class="form-group text-center">
+                                    <label class="radio-inline">
+                                        <input type="radio" name="11" value="1">我是商家
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="11" value="2">我是社团
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="11" value="3">我是代理
+                                    </label>
+                            </div>
+
+                            <div class="form-group">
+                                  <button type="submit" class="btn btn-default btn-100">登陆</button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+                <div id="email">
+                    <div class="register-layout">
+                    <form class="form-horizontal" action="">
+                        <div class="form-group">
+                              <input type="email" name="" class="form-control" placeholder="请输入常用邮箱" autofocus="autofocus">
+                        </div>
+
+                        <div class="form-group">
+                              <input type="password" class="form-control" name="" placeholder="请输入密码">
+                        </div>
+
+                        <div class="form-group text-center">
+                            <label class="radio-inline">
+                                <input type="radio" name="temp" value="">我是商家
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="temp" value="">我是社团
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="temp" value="">我是代理
+                            </label>
+                        </div>
+
+                        <div class="form-group">
+                              <button type="submit" class="btn btn-default btn-100">注册</button>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright text-center">
+                <p>© 2016 Bingo.cn 版权所有</p>
+            </div>
+        </div>
+    </div>
+    <script src="./js/jquery-1.12.2.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
