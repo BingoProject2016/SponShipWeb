@@ -1,3 +1,12 @@
+@import "./global.styl"
+.account
+    span
+        line-height: 22px
+    span,
+    button
+        float: right
+        margin-left: 12px
+
 .login
     padding-top: 200px
 
@@ -31,31 +40,68 @@
     input
         width: 300px
 
+.header
+    width: 100%
+    min-width: 1170px
+    background: #F2753F
+
+.main
+    // padding-top: 20px
+
 .nav
-    border-bottom: 1px dotted black
+    // border-bottom: 1px dotted black
     padding-top: 10px
+    h1
+        font-size: 16px
+    ul
+        padding: 0
     li
         float: left
         margin-right: 20px
     a
         font-size: 16px
+        color: #fff
 
-.main
-    padding-top: 10px
 
+// .main
+//     padding-top: 10px
+
+// 企业首页
 .leftnav
     float: left
-    border-right: 1px dotted black
+    margin-top: 20px
+    padding-top: 10px
     width: 25%
+    background: #f5f5f5
+    ul
+        padding-right: 20px
+    li
+        margin-bottom: 10px
+    h2
+        margin: 0 0 6px
+        font-size: 16px
+
     a
         font-size: 16px
+        margin-top: 10px
+        margin-right: 20px
+        color: #FF4500
     // background: red
     // border: 1px solid black
 
 .mainbox
     float: left
+    padding: 0 40px
     width: 75%
     // border: 1px solid black
+
+.search
+    margin-top: 20px
+    // padding-left: 40px
+    input
+        width: 400px
+    button
+        margin-left: 60px
 
 .searchBox,
 .searchSubmit
@@ -85,13 +131,16 @@
 
 // enterprise-audit.html
 .step-header
-    border-bottom: 1px dotted #000
+    // border-bottom: 1px dotted #000
+    padding-top: 20px
     font-size: 15px
+    ul
+        padding-left: 24px
     li
         float: left
-        margin-right: 10px
+        margin-right: 14px
 .step
-    padding-top: 30px
+    padding-top: 10px
 
 #enterprise-audit
     .center
@@ -113,22 +162,11 @@
         font-size: 14px
 
 .select-header
+    margin-top: 30px
 
-    span
-        margin-right: 10px
-
-.selectable
-    margin-top: 40px
-
-.com-scale
-    input,
-    span
-        float: left
-        // margin-right: 10px
-    span
-        line-height: 34px
-    input
-        width: 200px
+.selectable,
+.selected
+    margin-top: 60px
 
 .plan
     span,
